@@ -14,12 +14,12 @@ export const Hero = styled('div', {
   maxWidth: '480',
   padding: '0 $10',
 
-  [`${Heading}`]: {
+  [`> ${Heading}`]: {
     maskType: '$2',
     color: '$gray200',
   },
 
-  [`${Text}`]: {
+  [`> ${Text}`]: {
     marginTop: '$2',
     color: '$gray200',
   },
